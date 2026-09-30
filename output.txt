@@ -1,0 +1,20 @@
+Q3 - Student Score Maximum
+
+Input scores:
+78 92 65 88 95 72 84 90
+
+Max Heap after each insertion:
+After inserting 78: 78
+After inserting 92: 92 78
+After inserting 65: 92 78 65
+After inserting 88: 92 88 65 78
+After inserting 95: 95 92 65 78 88
+After inserting 72: 95 92 72 78 88 65
+After inserting 84: 95 92 84 78 88 65 72
+After inserting 90: 95 92 84 90 88 65 72 78
+
+Maximum using Max Heap: 95
+Root comparison required to identify maximum: 0
+
+Maximum using Linear Search: 95
+Comparisons in Linear Search: 7
